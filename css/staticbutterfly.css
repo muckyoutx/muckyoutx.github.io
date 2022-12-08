@@ -8,7 +8,7 @@
     background-image: url(/img/wallhaven-x12gxl.png);
 }
 .post-copyright{
-    background: url(https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/footer.webp) no-repeat 50% rgb(235, 114, 204);
+    background: 50%hsla(0, 0%, 100%, .15);
     height: /*368px*/100%;
     z-index: 1;
     position: absolute;
@@ -1895,14 +1895,14 @@ div.snote.error:before {
 #footer,
 #footer:before {
     
-   background: hsla(0, 0%, 100%, .15)
-  
-   /* background-image:(/img/footer.webm);*/
+   background: url(/img/footer.webp) no-repeat 50%hsla(0, 0%, 95%, .15);
+    z-index: 1;    
+   
 }
 
 #footer #footer-wrap,
 #footer #footer-wrap a {
-    color: #333
+    color: rgb(73, 235, 247)
 }
 
 @font-face {
